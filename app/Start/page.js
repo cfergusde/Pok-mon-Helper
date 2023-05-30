@@ -1,9 +1,11 @@
 
 
 export default function Start() {
-  return (
-    <main>
-      <p>Gym Leaders:</p>
-    </main>
-  )
+    const leaders = ['Roark', 'Gardenia', 'Fantina', 'Maylene', 'Crasher Wake', 'Byron', 'Candice', 'Volkner']
+
+    return (
+        <main>
+        <p>Gym Leaders:</p>
+        </main>
+    )
 }
