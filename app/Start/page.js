@@ -6,6 +6,11 @@ export default function Start() {
     return (
         <main>
         <p>Gym Leaders:</p>
+        {
+          leaders.map((leader, index)=>
+            <p key={index}>{leader}</p>
+          )
+        }
         </main>
     )
 }
