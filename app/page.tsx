@@ -16,6 +16,7 @@ export default function Home() {
                 src={PlatinumImg}
                 width={200}
                 height={100}
+                alt="Pokemon Platinum"
             />
         </Link>
       </div>
