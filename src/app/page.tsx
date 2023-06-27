@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from './page.module.css'
 import PlatinumImg from '../assets/platinum-logo-large.jpg'
 
 
@@ -10,8 +9,8 @@ export default function Home() {
       <p>
         Welcome to Pokemon helper. Click the game you want to use:
       </p>
-      <div className={styles.gameSelection}>
-        <Link href={'./Start'}>
+      <div className="">
+        <Link href={'./start'}>
             <Image 
                 src={PlatinumImg}
                 alt="Pokemon Platinum Img"
