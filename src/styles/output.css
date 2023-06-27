@@ -564,8 +564,16 @@ video {
   display: grid;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-40 {
+  width: 10rem;
 }
 
 .grid-cols-2 {
@@ -588,11 +596,23 @@ video {
   justify-content: space-between;
 }
 
-.p-24 {
-  padding: 6rem;
+.gap-2 {
+  gap: 0.5rem;
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+.gap-4 {
+  gap: 1rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-slate-950 {
+  --tw-border-opacity: 1;
+  border-color: rgb(2 6 23 / var(--tw-border-opacity));
+}
+
+.p-24 {
+  padding: 6rem;
 }
