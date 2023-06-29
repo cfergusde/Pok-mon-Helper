@@ -2,7 +2,7 @@ import { sanitizeStr } from "util/utils";
 
 export type GymLeader = {
   name: string;
-  imgUrl: string; // shows optional value
+  imgUrl: string;
 };
 
 export const useGymLeaders = () => {
@@ -19,8 +19,11 @@ export const useGymLeaders = () => {
   ];
 
   const leaders: GymLeader[] = leaderStrings.map((leader) => {
-    return { name: sanitizeStr(leader), imgUrl: `${baseUrl}/${sanitizeStr(leader)}.png` };
+    return {
+      name: sanitizeStr(leader),
+      imgUrl: `${baseUrl}/${sanitizeStr(leader)}.png`,
+    };
   });
 
-  return [leaders]
+  return [leaders];
 };

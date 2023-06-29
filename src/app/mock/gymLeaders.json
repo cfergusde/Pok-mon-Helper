@@ -1,0 +1,23 @@
+{
+  "leaders": [
+    {
+      "name": "roark",
+      "type": "rock",
+      "color": "",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "pokemon": [
+        {
+          "name": "cranidos",
+          "level": "14",
+          "moveset": ["headbutt", "tackle"]
+        },
+        {
+          "name": "geodude"
+        },
+        {
+          "name": "onyx"
+        }
+      ]
+    }
+  ]
+}

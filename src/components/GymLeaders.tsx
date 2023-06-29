@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { ListBox } from "./ListBox";
 import { useGymLeaders } from "hooks/use-gym-leaders";
+import Link from "next/link";
 
 type GymLeadersProps = {
   select: () => void;
@@ -17,17 +18,19 @@ export const GymLeaders = ({ select }: GymLeadersProps) => {
   // HTML(TSX) to be returned
   return (
     // container for gym leaders
-    <div className="grid grid-cols-2 gap-4" onClick={select}>
+    <div className="grid grid-cols-2 gap-10 mt-10">
       {leaders.map((leader, index) => (
         // Each individual leader
-        <ListBox key={leader.name} index={index + 1}>
-          <Image
-            src={leader.imgUrl}
-            alt={leader.name}
-            width={50}
-            height={50}
-          />
-        </ListBox>
+        <Link href={`/game/${leader.name}`}>
+          <ListBox key={leader.name} index={index + 1}>
+            <Image
+              src={leader.imgUrl}
+              alt={leader.name}
+              width={50}
+              height={50}
+            />
+          </ListBox>
+        </Link>
       ))}
     </div>
   );
