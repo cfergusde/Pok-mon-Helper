@@ -21,7 +21,7 @@ export const GymLeaders = ({ select }: GymLeadersProps) => {
     <div className="grid grid-cols-2 gap-10 mt-10">
       {leaders.map((leader, index) => (
         // Each individual leader
-        <Link href={`/game/${leader.name}`}>
+        <Link href={`/home`} >
           <ListBox key={leader.name} index={index + 1}>
             <Image
               src={leader.imgUrl}
