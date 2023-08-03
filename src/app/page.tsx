@@ -19,16 +19,6 @@ export default function Home() {
             />
         </Link>
       </div>
-      <div className="border-solid border-black border-2 hover:border-dotted p-2">
-        <Link href={'./start'}>
-          <Image
-            src={Black2Img}
-            alt="Pokemon Black 2 Img"
-            width={200}
-            height={100}
-          />
-        </Link>
-      </div>
     </main>
   )
 }
