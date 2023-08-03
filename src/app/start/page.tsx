@@ -6,6 +6,7 @@ import Image from "next/image";
 import crying_psyduck from "assets/crying_psyduck.png"
 
 export default function Start() {
+
   return (
     <main className="w-screen h-screen">
       <div className="w-full h-40 flex justify-center items-center">
