@@ -6,6 +6,7 @@ import Image from "next/image";
 import crying_psyduck from "assets/crying_psyduck.png"
 
 export default function Start() {
+
   return (
     <main className="w-screen h-screen">
       <div className="w-full h-40 flex justify-center items-center">
@@ -17,9 +18,11 @@ export default function Start() {
         <h1 className="mb-8 text-4xl font-bold">
           Which gym did you last defeat?
         </h1>
+        {/* Start New Game */}
         <ListBox index={0}>
           <Image src={crying_psyduck} alt="crying psyduck" width={50} height={50} />
         </ListBox>
+        {/* Start Existing Game */}
         <GymLeaders select={() => alert("selected")} />
       </div>
     </main>

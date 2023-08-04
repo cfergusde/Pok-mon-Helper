@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"next dev --turbo\" \"tailwindcss --input ./src/styles/input.css --output ./src/styles/output.css --watch\"",
-    "build": "tailwindcss ./src/styles/input.css --output ./src/styles/output.css && next build",
+    "dev": "next dev --turbo",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -15,6 +15,7 @@
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.4",
     "next": "13.4.4",
+    "pokedex-promise-v2": "^4.1.1",
     "postcss": "^8.4.24",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-normalize": "^10.0.1",
@@ -25,7 +26,6 @@
   },
   "devDependencies": {
     "@types/node": "20.3.2",
-    "@types/react": "18.2.14",
-    "concurrently": "^8.2.0"
+    "@types/react": "18.2.14"
   }
 }
