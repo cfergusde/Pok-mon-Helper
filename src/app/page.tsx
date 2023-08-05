@@ -1,25 +1,32 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import PlatinumImg from '../assets/platinum-logo-large.jpg'
-import Black2Img from '../assets/Black2Logo.png'
-import getEncountersByLocationId from 'pages/api/encounters'
+import Image from "next/image";
+import Link from "next/link";
+import PlatinumImg from "../assets/platinum-logo-large.jpg";
+import Black2Img from "../assets/Black2Logo.png";
+import options from "@app/api/auth/[...nextauth]/options";
+import { getServerSession } from "next-auth/next";
 
-export default function Home() {
+export default async function Home() {
+  const session = await getServerSession(options);
+  console.log(session?.user)
   return (
     <main className="flex flex-col justify-between items-center p-24 min-h-screen">
       <p className="bg-amber-300 text-sky-700 font-mono font-bold text-4xl p-2 border-x-4 border-sky-700">
-        Welcome to Pokéhelper! Click the game you want to use below:
+        Welcome to Pokéhelper!
       </p>
-      <div className="border-solid border-black border-2 hover:border-dotted">
-        <Link href={'./start'}>
-            <Image 
-                src={PlatinumImg}
-                alt="Pokemon Platinum Img"
-                width={200}
-                height={100}
+      {!session ? (
+        <div>You should log in so that your progress is saved!</div>
+      ) : (
+        <div className="border-solid border-black border-2 hover:border-dotted">
+          <Link href={"./start"}>
+            <Image
+              src={PlatinumImg}
+              alt="Pokemon Platinum Img"
+              width={200}
+              height={100}
             />
-        </Link>
-      </div>
+          </Link>
+        </div>
+      )}
     </main>
-  )
+  );
 }
