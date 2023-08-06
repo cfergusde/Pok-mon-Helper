@@ -1,19 +1,20 @@
 "use client";
 
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { ListBox } from "./ListBox";
-import { useGymLeaders } from "hooks/use-gym-leaders";
+import gymLeaders from "@app/data/gymLeaders.json";
 import Link from "next/link";
+import Cookies from "js-cookie";
 
-type GymLeadersProps = {
-  select: () => void;
-};
+export type GymLeaderProps = {
+  src: StaticImageData | string
+  alt: string
+  gymLocation: string
+}
 
-// This is purely a display component right now. We will find out ways of making data-fetching components
-//                            params    paramsType
-export const GymLeaders = ({ select }: GymLeadersProps) => {
+export const GymLeaders = () => {
   // dynamically retrieve gym leaders with this hook
-  const [leaders] = useGymLeaders();
+  const leaders = gymLeaders.leaders;
 
   // HTML(TSX) to be returned
   return (
@@ -21,17 +22,25 @@ export const GymLeaders = ({ select }: GymLeadersProps) => {
     <div className="grid grid-cols-2 gap-10 mt-10">
       {leaders.map((leader, index) => (
         // Each individual leader
-        <Link href={`/home`} key={leader.name} >
-          <ListBox key={leader.name} index={index + 1}>
-            <Image
-              src={leader.imgUrl}
-              alt={leader.name}
-              width={50}
-              height={50}
-            />
-          </ListBox>
-        </Link>
+        <GymLeader src={leader.imgUrl} alt={leader.name} gymLocation={leader.gymLocation} key={leader.name} />
       ))}
     </div>
+  );
+};
+
+export const GymLeader = ({ src, alt, gymLocation }: GymLeaderProps) => {
+  return (
+    <Link href={'/home'} onClick={() => Cookies.set('pokehelper-location', gymLocation)}>
+      <ListBox
+        index={0}
+      >
+        <Image
+          src={src}
+          alt={alt}
+          width={50}
+          height={50}
+        />
+      </ListBox>
+    </Link>
   );
 };

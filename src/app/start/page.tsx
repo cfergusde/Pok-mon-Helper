@@ -1,11 +1,23 @@
-"use client";
+'use client'
 
-import { GymLeaders } from "components/GymLeaders";
-import { ListBox } from "components/ListBox";
-import Image from "next/image";
+import { useEffect } from "react";
+import { GymLeaders, GymLeader } from "components/GymLeaders";
 import crying_psyduck from "assets/crying_psyduck.png"
+import Cookies from "js-cookie";
+import { useRouter } from "next/navigation";
 
 export default function Start() {
+  const router = useRouter();
+
+  if (Cookies.get("pokehelper-location")) {
+    useEffect(() => {
+      setTimeout(() => {
+        router.replace("/home");
+        router.refresh();
+      }, 1000)
+      console.log('finding your game')
+    }, [router]);
+  }
 
   return (
     <main className="w-screen h-screen">
@@ -19,11 +31,9 @@ export default function Start() {
           Which gym did you last defeat?
         </h1>
         {/* Start New Game */}
-        <ListBox index={0}>
-          <Image src={crying_psyduck} alt="crying psyduck" width={50} height={50} />
-        </ListBox>
+        <GymLeader src={crying_psyduck} alt="Crying Psyduck" gymLocation="twinleaf-town-area" />
         {/* Start Existing Game */}
-        <GymLeaders select={() => alert("selected")} />
+        <GymLeaders />
       </div>
     </main>
   );
