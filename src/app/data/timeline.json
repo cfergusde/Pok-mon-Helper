@@ -1,0 +1,326 @@
+{
+  "part1": [
+    {
+      "name": "twinleaf-town-area",
+      "displayName": "Twinleaf Town",
+      "url": "https://pokeapi.co/api/v2/location-area/177/"
+    },
+    {
+      "name": "sinnoh-route-201-area",
+      "url": "https://pokeapi.co/api/v2/location-area/141/",
+      "displayName": "Route 201"
+    },
+    {
+      "displayName": "Lake Verity",
+      "name": "lake-verity-before-galactic-intervention",
+      "url": "https://pokeapi.co/api/v2/location-area/135/"
+    },
+    {
+      "displayName": "Sandgem Town"
+    }
+  ],
+  "part2": [
+    {
+      "displayName": "Route 202",
+      "name": "sinnoh-route-202-area",
+      "url": "https://pokeapi.co/api/v2/location-area/142/"
+    },
+    {
+      "displayName": "Jubilife City"
+    },
+    {
+      "displayName": "Route 203",
+      "name": "sinnoh-route-203-area",
+      "url": "https://pokeapi.co/api/v2/location-area/143/"
+    },
+    {
+      "displayName": "Oreburgh Gate",
+      "name": "oreburgh-gate-1f",
+      "url": "https://pokeapi.co/api/v2/location-area/55/"
+    },
+    {
+      "displayName": "Oreburgh Gate Basement",
+      "name": "oreburgh-gate-b1f",
+      "url": "https://pokeapi.co/api/v2/location-area/56/"
+    },
+    {
+      "displayName": "Oreburgh City"
+    },
+    {
+      "displayName": "Oreburgh Mine",
+      "name": "oreburgh-mine-1f",
+      "url": "https://pokeapi.co/api/v2/location-area/6/"
+    },
+    {
+      "displayName": "Oreburgh Mine Basement",
+      "name": "oreburgh-mine-b1f",
+      "url": "https://pokeapi.co/api/v2/location-area/7/"
+    },
+    {
+      "displayName": "Oreburgh Gym",
+      "name": "oreburgh-gym"
+    }
+  ],
+  "part3": [
+    {
+      "displayName": "Jubilife City"
+    },
+    {
+      "displayName": "Route 204 (south)",
+      "name": "sinnoh-route-204-south-towards-jubilife-city",
+      "url": "https://pokeapi.co/api/v2/location-area/144/"
+    },
+    {
+      "displayName": "Ravaged Path",
+      "name": "ravaged-path-area",
+      "url": "https://pokeapi.co/api/v2/location-area/54/"
+    },
+    {
+      "displayName": "Route 204 (north)",
+      "name": "sinnoh-route-204-north-towards-floaroma-town",
+      "url": "https://pokeapi.co/api/v2/location-area/145/"
+    },
+    {
+      "displayName": "Floaroma Town"
+    },
+    {
+      "displayName": "Floaroma Meadow"
+    }
+  ],
+  "part4": [
+    {
+      "displayName": "Valley Windworks"
+    },
+    {
+      "displayName": "Route 205 (south)"
+    },
+    {
+      "displayName": "Eterna Forest"
+    },
+    {
+      "displayName": "Route 205 (east)"
+    },
+    {
+      "displayName": "Eterna City"
+    },
+    {
+      "displayName": "Eterna Gym"
+    }
+  ],
+  "part5": [
+    {
+      "displayName": "Eterna City"
+    },
+    {
+      "displayName": "Old Chateau"
+    },
+    {
+      "displayName": "Route 206"
+    },
+    {
+      "displayName": "Wayward Cave"
+    },
+    {
+      "displayName": "Route 207"
+    }
+  ],
+  "part6": [
+    {
+      "displayName": "Mt. Coronet (south)"
+    },
+    {
+      "displayName": "Route 208"
+    },
+    {
+      "displayName": "Hearthome City"
+    },
+    {
+      "displayName": "Hearthome Gym"
+    },
+    {
+      "displayName": "Route 209"
+    }
+  ],
+  "part7": [
+    {
+      "displayName": "Solaceon Town"
+    },
+    {
+      "displayName": "Solaceon Ruins"
+    },
+    {
+      "displayName": "Lost Tower"
+    },
+    {
+      "displayName": "Route 210 (south)"
+    }
+  ],
+  "part8": [
+    {
+      "displayName": "Route 215"
+    },
+    {
+      "displayName": "Veilstone City"
+    },
+    {
+      "displayName": "Veilstone Gym"
+    }
+  ],
+  "part9": [
+    {
+      "displayName": "Route 214"
+    },
+    {
+      "displayName": "Maniac Tunnel"
+    },
+    {
+      "displayName": "Valor Lakefront"
+    },
+    {
+      "displayName": "Route 213"
+    },
+    {
+      "displayName": "Pastoria City"
+    }
+  ],
+  "part10": [
+    {
+      "displayName": "Pastoria Gym"
+    },
+    {
+      "displayName": "Route 212"
+    },
+    {
+      "displayName": "Valor Lakefront"
+    }
+  ],
+  "part11": [
+    {
+      "displayName": "Route 210"
+    },
+    {
+      "displayName": "Celestic Town"
+    },
+    {
+      "displayName": "Fuego Ironworks"
+    },
+    {
+      "displayName": "Route 213"
+    },
+    {
+      "displayName": "Route 219"
+    },
+    {
+      "displayName": "Route 220"
+    }
+  ],
+  "part12": [
+    {
+      "displayName": "Route 221"
+    },
+    {
+      "displayName": "Route 218"
+    },
+    {
+      "displayName": "Canalave City"
+    },
+    {
+      "displayName": "Canalave Gym"
+    }
+  ],
+  "part13": [
+    {
+      "displayName": "Iron Island"
+    },
+    {
+      "displayName": "Lake Valor"
+    }
+  ],
+  "part14": [
+    {
+      "displayName": "Lake Verity"
+    },
+    {
+      "displayName": "Route 211"
+    },
+    {
+      "displayName": "Mt. Coronet (north)"
+    },
+    {
+      "displayName": "Route 216"
+    },
+    {
+      "displayName": "Route 217"
+    }
+  ],
+  "part15": [
+    {
+      "displayName": "Acuity Lakefront"
+    },
+    {
+      "displayName": "Snowpoint City"
+    },
+    {
+      "displayName": "Snowpoint Gym"
+    },
+    {
+      "displayName": "Lake Acuity"
+    },
+    {
+      "displayName": "Veilstone City"
+    }
+  ],
+  "part16": [
+    {
+      "displayName": "Mt. Coronet (south)*",
+      "comment": "This line should be removed; but I'm not sure this location is the same as the last Mt. Coronet (south)"
+    }
+  ],
+  "part17": [
+    {
+      "displayName": "Spear Pillar"
+    },
+    {
+      "displayName": "Distortion World"
+    }
+  ],
+  "part18": [
+    {
+      "displayName": "Sendoff Spring"
+    },
+    {
+      "displayName": "Lake Verity"
+    },
+    {
+      "displayName": "Lake Valor"
+    },
+    {
+      "displayName": "Lake Acuity"
+    },
+    {
+      "displayName": "Route 222"
+    },
+    {
+      "displayName": "Sunyshore City"
+    }
+  ],
+  "part19": [
+    {
+      "displayName": "Sunyshore Gym"
+    },
+    {
+      "displayName": "Route 223"
+    },
+    {
+      "displayName": "Pokemon League (south)"
+    },
+    {
+      "displayName": "Victory Road"
+    }
+  ],
+  "part20": [
+    {
+      "displayName": "Pokemon League (north)"
+    }
+  ]
+}

@@ -5,6 +5,7 @@
       "type": "rock",
       "color": "",
       "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "gymLocation": "oreburgh-gym",
       "pokemon": [
         {
           "name": "cranidos",
