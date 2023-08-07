@@ -34,12 +34,12 @@ export default function Timeline({ location, lastGymLocation }: TimelineProps) {
 
       <div>
         {smallEventsArray.map((item, index) => (
-          <div key={index}>{item} </div>
+          <div key={index}> <SmallEvent location = {item} /> </div>
         ))}
       </div>
 
       <div>
-        <SmallEvent location = {locations[-1]} />
+        <LargeEvent location = {locations[-1]} />
       </div>
     </div>
   );
