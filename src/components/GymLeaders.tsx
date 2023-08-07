@@ -7,10 +7,10 @@ import Link from "next/link";
 import Cookies from "js-cookie";
 
 export type GymLeaderProps = {
-  src: StaticImageData | string
-  alt: string
-  gymLocation: string
-}
+  src: StaticImageData | string;
+  alt: string;
+  gymLocation: string;
+};
 
 export const GymLeaders = () => {
   // dynamically retrieve gym leaders with this hook
@@ -22,24 +22,26 @@ export const GymLeaders = () => {
     <div className="grid grid-cols-2 gap-10 mt-10">
       {leaders.map((leader, index) => (
         // Each individual leader
-        <GymLeader src={leader.imgUrl} alt={leader.name} gymLocation={leader.gymLocation} key={leader.name} />
+        <GymLeader
+          src={leader.imgUrl}
+          alt={leader.name}
+          gymLocation={leader.gymLocation}
+          key={leader.name}
+        />
       ))}
     </div>
   );
 };
 
 export const GymLeader = ({ src, alt, gymLocation }: GymLeaderProps) => {
+  const setCookies = (gymLocation: string) => {
+    Cookies.set("pokehelper-location", gymLocation);
+    Cookies.set("pokehelper-lastGym", gymLocation);
+  };
   return (
-    <Link href={'/home'} onClick={() => Cookies.set('pokehelper-location', gymLocation)}>
-      <ListBox
-        index={0}
-      >
-        <Image
-          src={src}
-          alt={alt}
-          width={50}
-          height={50}
-        />
+    <Link href={"/home"} onClick={() => setCookies(gymLocation)}>
+      <ListBox index={0}>
+        <Image src={src} alt={alt} width={50} height={50} />
       </ListBox>
     </Link>
   );

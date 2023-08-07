@@ -1,5 +1,5 @@
 {
-  "part1": [
+  "locations": [
     {
       "name": "twinleaf-town-area",
       "displayName": "Twinleaf Town",
@@ -17,9 +17,7 @@
     },
     {
       "displayName": "Sandgem Town"
-    }
-  ],
-  "part2": [
+    },
     {
       "displayName": "Route 202",
       "name": "sinnoh-route-202-area",
@@ -59,9 +57,7 @@
     {
       "displayName": "Oreburgh Gym",
       "name": "oreburgh-gym"
-    }
-  ],
-  "part3": [
+    },
     {
       "displayName": "Jubilife City"
     },
@@ -85,9 +81,7 @@
     },
     {
       "displayName": "Floaroma Meadow"
-    }
-  ],
-  "part4": [
+    },
     {
       "displayName": "Valley Windworks"
     },
@@ -105,9 +99,7 @@
     },
     {
       "displayName": "Eterna Gym"
-    }
-  ],
-  "part5": [
+    },
     {
       "displayName": "Eterna City"
     },
@@ -122,9 +114,7 @@
     },
     {
       "displayName": "Route 207"
-    }
-  ],
-  "part6": [
+    },
     {
       "displayName": "Mt. Coronet (south)"
     },
@@ -139,9 +129,7 @@
     },
     {
       "displayName": "Route 209"
-    }
-  ],
-  "part7": [
+    },
     {
       "displayName": "Solaceon Town"
     },
@@ -153,9 +141,7 @@
     },
     {
       "displayName": "Route 210 (south)"
-    }
-  ],
-  "part8": [
+    },
     {
       "displayName": "Route 215"
     },
@@ -164,9 +150,7 @@
     },
     {
       "displayName": "Veilstone Gym"
-    }
-  ],
-  "part9": [
+    },
     {
       "displayName": "Route 214"
     },
@@ -181,9 +165,7 @@
     },
     {
       "displayName": "Pastoria City"
-    }
-  ],
-  "part10": [
+    },
     {
       "displayName": "Pastoria Gym"
     },
@@ -192,9 +174,7 @@
     },
     {
       "displayName": "Valor Lakefront"
-    }
-  ],
-  "part11": [
+    },
     {
       "displayName": "Route 210"
     },
@@ -212,9 +192,7 @@
     },
     {
       "displayName": "Route 220"
-    }
-  ],
-  "part12": [
+    },
     {
       "displayName": "Route 221"
     },
@@ -226,17 +204,13 @@
     },
     {
       "displayName": "Canalave Gym"
-    }
-  ],
-  "part13": [
+    },
     {
       "displayName": "Iron Island"
     },
     {
       "displayName": "Lake Valor"
-    }
-  ],
-  "part14": [
+    },
     {
       "displayName": "Lake Verity"
     },
@@ -251,9 +225,7 @@
     },
     {
       "displayName": "Route 217"
-    }
-  ],
-  "part15": [
+    },
     {
       "displayName": "Acuity Lakefront"
     },
@@ -268,23 +240,17 @@
     },
     {
       "displayName": "Veilstone City"
-    }
-  ],
-  "part16": [
+    },
     {
       "displayName": "Mt. Coronet (south)*",
       "comment": "This line should be removed; but I'm not sure this location is the same as the last Mt. Coronet (south)"
-    }
-  ],
-  "part17": [
+    },
     {
       "displayName": "Spear Pillar"
     },
     {
       "displayName": "Distortion World"
-    }
-  ],
-  "part18": [
+    },
     {
       "displayName": "Sendoff Spring"
     },
@@ -302,9 +268,7 @@
     },
     {
       "displayName": "Sunyshore City"
-    }
-  ],
-  "part19": [
+    },
     {
       "displayName": "Sunyshore Gym"
     },
@@ -316,9 +280,7 @@
     },
     {
       "displayName": "Victory Road"
-    }
-  ],
-  "part20": [
+    },
     {
       "displayName": "Pokemon League (north)"
     }

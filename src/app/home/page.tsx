@@ -5,11 +5,13 @@ import TallGrass from "@assets/tallgrass.png";
 import Potion from "@assets/potion.png";
 import Trainer from "@assets/trainer.png";
 import Cookies from "js-cookie";
+import Timeline from "@components/Timeline";
 
 const ICON_SIZE = 100;
 
 export default async function Home() {
   const location = Cookies.get("pokehelper-location");
+  const lastGym = Cookies.get("pokehelper-lastGym");
 
   return (
     <main className="w-screen h-screen flex flex-col">
@@ -50,7 +52,10 @@ export default async function Home() {
           </div>
         </div>
         <div className="outline outline-gray-700 w-full h-full centered lg:w-1/3">
-          Timeline Section
+          < Timeline 
+            location = {location}
+            lastGymLocation= {lastGym}
+          />
           {/* Make its own component - will need access to last major event, next major event, and minor events along the way */}
         </div>
       </div>
