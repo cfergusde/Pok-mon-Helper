@@ -1,4 +1,6 @@
 import timelineData from "@app/(data)/timeline.json";
+import SmallEvent from "./SmallEvent";
+import LargeEvent from "./LargeEvent";
 
 type TimelineProps = {
   location: string | undefined;
@@ -20,7 +22,25 @@ export default function Timeline({ location, lastGymLocation }: TimelineProps) {
     }
   }
 
-  console.log(locations)
+  console.log(locations);
 
-  return <></>;
+  const smallEventsArray = locations.slice(1, -1);
+
+  return (
+    <div>
+      <div>
+        <LargeEvent location = {locations[0]} />
+      </div>
+
+      <div>
+        {smallEventsArray.map((item, index) => (
+          <div key={index}>{item} </div>
+        ))}
+      </div>
+
+      <div>
+        <SmallEvent location = {locations[-1]} />
+      </div>
+    </div>
+  );
 }
