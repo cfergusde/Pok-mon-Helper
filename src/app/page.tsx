@@ -10,15 +10,15 @@ import { useEffect } from "react";
 export default async function Home() {
   const router = useRouter();
 
-  if (Cookies.get("pokehelper-location")) {
-    useEffect(() => {
+  useEffect(() => {
+    if (Cookies.get("pokehelper-location")) {
       setTimeout(() => {
         router.replace("/home");
         router.refresh();
-      }, 2000)
-      console.log('finding your game')
-    }, [router]);
-  }
+      }, 2000);
+    }
+    console.log("finding your game");
+  }, [router, Cookies]);
 
   return (
     <main className="flex flex-col justify-between items-center p-24 min-h-screen">
