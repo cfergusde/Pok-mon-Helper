@@ -1,7 +1,7 @@
 import '../styles/globals.css'
-import { Inter } from 'next/font/google'
+import { Josefin_Sans } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Josefin_Sans({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Pokemon Helper',

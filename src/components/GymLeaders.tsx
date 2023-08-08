@@ -1,10 +1,7 @@
-"use client";
-
 import Image, { StaticImageData } from "next/image";
 import { ListBox } from "./ListBox";
-import gymLeaders from "@app/data/gymLeaders.json";
+import gymLeaders from "@app/(data)/gymLeaders.json";
 import Link from "next/link";
-import Cookies from "js-cookie";
 
 export type GymLeaderProps = {
   src: StaticImageData | string
@@ -20,7 +17,7 @@ export const GymLeaders = () => {
   return (
     // container for gym leaders
     <div className="grid grid-cols-2 gap-10 mt-10">
-      {leaders.map((leader, index) => (
+      {leaders.map((leader) => (
         // Each individual leader
         <GymLeader src={leader.imgUrl} alt={leader.name} gymLocation={leader.gymLocation} key={leader.name} />
       ))}
@@ -30,7 +27,7 @@ export const GymLeaders = () => {
 
 export const GymLeader = ({ src, alt, gymLocation }: GymLeaderProps) => {
   return (
-    <Link href={'/home'} onClick={() => Cookies.set('pokehelper-location', gymLocation)}>
+    <Link href={`/home?location=${gymLocation}`} prefetch={false}>
       <ListBox
         index={0}
       >

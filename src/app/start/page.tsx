@@ -1,24 +1,9 @@
-"use client";
 
 import { useEffect } from "react";
 import { GymLeaders, GymLeader } from "components/GymLeaders";
 import crying_psyduck from "assets/crying_psyduck.png";
-import Cookies from "js-cookie";
-import { useRouter } from "next/navigation";
 
 export default function Start() {
-  const router = useRouter();
-
-  useEffect(() => {
-    if (Cookies.get("pokehelper-location")) {
-      setTimeout(() => {
-        router.replace("/home");
-        router.refresh();
-      }, 2000);
-    }
-    console.log("finding your game");
-  }, [router, Cookies]);
-
   return (
     <main className="w-screen h-screen">
       <div className="w-full h-40 flex justify-center items-center">
