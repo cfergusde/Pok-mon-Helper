@@ -14,10 +14,7 @@ export default async function Home({
 }: {
   searchParams: { [key: string]: string | string[] | undefined };
 }) {
-
   const location = cookies().get("pokehelper-location")?.value;
-  console.log(`location: ${location}`);
-  // const location = Cookies.get("pokehelper-location");
 
   return (
     <main className="w-screen h-screen flex flex-col">
