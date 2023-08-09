@@ -1,24 +1,546 @@
 {
   "leaders": [
     {
-      "name": "roark",
-      "type": "rock",
-      "color": "",
+      "name": "Roark",
+      "badge": "Coal Badge",
+      "type": "Rock",
+      "location": "Oreburgh City",
       "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
       "gymLocation": "oreburgh-gym",
       "pokemon": [
         {
-          "name": "cranidos",
-          "level": "14",
-          "moveset": ["headbutt", "tackle"]
+          "name": "Geodude",
+          "type": "Rock/Ground",
+          "moves": ["Rock Throw", "Stealth Rock"],
+          "ability": "Rock Head",
+          "nature": "Lax",
+          "level": 12
         },
         {
-          "name": "geodude"
+          "name": "Onix",
+          "type": "Rock/Ground",
+          "moves": ["Stealth Rock", "Rock Throw", "Screech"],
+          "nature": "Bold",
+          "ability": "Rock Head",
+          "level": 12
         },
         {
-          "name": "onyx"
+          "name": "Cranidos",
+          "type": "Rock",
+          "moves": ["Headbutt", "Leer", "Pursuit"],
+          "nature": "Jolly",
+          "ability": "Mold Breaker",
+          "level": 14
+        }
+      ]
+    },
+    {
+      "name": "Gardenia",
+      "badge": "Forest Badge",
+      "type": "Grass",
+      "location": "Eterna City",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "gymLocation": "oreburgh-gym",
+      "pokemon": [
+        {
+          "name": "Turtwig",
+          "type": "Grass",
+          "moves": ["Grass Knot", "Razor Leaf", "Sunny Day", "Reflect"],
+          "nature": "Quirky",
+          "ability": "Overgrow",
+          "level": 20
+        },
+        {
+          "name": "Cherrim",
+          "type": "Grass",
+          "moves": ["Grass Knot", "Leech Seed", "Magical Leaf", "Safeguard"],
+          "nature": "Lax",
+          "ability": "Chlorophyll",
+          "level": 20
+        },
+        {
+          "name": "Roserade",
+          "type": "Grass/Poison",
+          "moves": ["Grass Knot", "Magical Leaf", "Poison Sting", "Stun Spore"],
+          "nature": "Naive",
+          "ability": "Natural Cure",
+          "level": 22
+        }
+      ]
+    },
+    {
+      "name": "Fantina",
+      "badge": "Relic Badge",
+      "type": "Ghost",
+      "location": "Hearthome City",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "gymLocation": "oreburgh-gym",
+      "pokemon": [
+        {
+          "name": "Duskull",
+          "type": "Ghost",
+          "moves": ["Will-O-Wisp", "Pursuit", "Shadow Sneak", "Future Sight"],
+          "nature": "Mild",
+          "ability": "Levitate",
+          "level": 24
+        },
+        {
+          "name": "Haunter",
+          "type": "Ghost/Poison",
+          "moves": ["Shadow Claw", "Sucker Punch", "Hypnosis", "Confuse Ray"],
+          "nature": "Bashful",
+          "ability": "Levitate",
+          "level": 24
+        },
+        {
+          "name": "Mismagius",
+          "type": "Ghost",
+          "moves": ["Shadow Ball", "Psybeam", "Magical Leaf", "Confuse Ray"],
+          "nature": "Impish",
+          "ability": "Levitate",
+          "level": 26
+        }
+      ]
+    },
+    {
+      "name": "Maylene",
+      "badge": "Cobble Badge",
+      "type": "Fighting",
+      "location": "Veilstone City",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "gymLocation": "oreburgh-gym",
+      "pokemon": [
+        {
+          "name": "Meditite",
+          "type": "Fighting/Psychic",
+          "moves": ["Drain Punch", "Confusion", "Rock Tomb", "Fake Out"],
+          "nature": "Brave",
+          "ability": "Pure Power",
+          "level": 28
+        },
+        {
+          "name": "Machoke",
+          "type": "Fighting",
+          "moves": ["Karate Chop", "Rock Tomb", "Strength", "Focus Energy"],
+          "nature": "Naughty",
+          "ability": "Guts",
+          "level": 29
+        },
+        {
+          "name": "Lucario",
+          "type": "Fighting/Steel",
+          "moves": ["Drain Punch", "Force Palm", "Metal Claw", "Bone Rush"],
+          "nature": "Hasty",
+          "ability": "Steadfast",
+          "level": 32
+        }
+      ]
+    },
+    {
+      "name": "Crasher Wake",
+      "badge": "Fen Badge",
+      "type": "Water",
+      "location": "Pastoria City",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "gymLocation": "oreburgh-gym",
+      "pokemon": [
+        {
+          "name": "Gyarados",
+          "type": "Water/Flying",
+          "moves": ["Waterfall", "Brine", "Bite", "Twister"],
+          "nature": "Lax",
+          "ability": "Intimidate",
+          "level": 33
+        },
+        {
+          "name": "Quagsire",
+          "type": "Water/Ground",
+          "moves": ["Mud Shot", "Rock Tomb", "Water Pulse", "Yawn"],
+          "nature": "Naughty",
+          "ability": "Damp",
+          "level": 34
+        },
+        {
+          "name": "Floatzel",
+          "type": "Water",
+          "moves": ["Brine", "Ice Fang", "Crunch", "Aqua Jet"],
+          "nature": "Naughty",
+          "ability": "Swift Swim",
+          "level": 37
+        }
+      ]
+    },
+    {
+      "name": "Byron",
+      "badge": "Mine Badge",
+      "type": "Steel",
+      "location": "Canalave City",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "gymLocation": "oreburgh-gym",
+      "pokemon": [
+        {
+          "name": "Magneton",
+          "type": "Electric/Steel",
+          "moves": ["Flash Cannon", "Thunderbolt", "Tri Attack", "Metal Sound"],
+          "nature": "Relaxed",
+          "ability": "Magnet Pull",
+          "level": 37
+        },
+        {
+          "name": "Steelix",
+          "type": "Steel/Ground",
+          "moves": ["Flash Cannon", "Ice Fang", "Earthquake", "Sandstorm"],
+          "nature": "Serious",
+          "ability": "Sturdy",
+          "level": 38
+        },
+        {
+          "name": "Bastiodon",
+          "type": "Steel/Rock",
+          "moves": ["Metal Burst", "Stone Edge", "Iron Defense", "Taunt"],
+          "nature": "Lax",
+          "ability": "Sturdy",
+          "level": 41
+        }
+      ]
+    },
+    {
+      "name": "Candice",
+      "badge": "Icicle Badge",
+      "type": "Ice",
+      "location": "Snowpoint City",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "gymLocation": "oreburgh-gym",
+      "pokemon": [
+        {
+          "name": "Sneasel",
+          "type": "Dark/Ice",
+          "moves": ["Slash", "Aerial Ace", "Feint Attack", "Ice Shard"],
+          "nature": "Docile",
+          "ability": "Inner Focus",
+          "level": 40
+        },
+        {
+          "name": "Piloswine",
+          "type": "Ice/Ground",
+          "moves": ["Avalanche", "Stone Edge", "Earthquake", "Hail"],
+          "nature": "Mild",
+          "ability": "Oblivious",
+          "level": 40
+        },
+        {
+          "name": "Abomasnow",
+          "type": "Grass/Ice",
+          "moves": ["Avalanche", "Wood Hammer", "Water Pulse", "Focus Blast"],
+          "nature": "Relaxed",
+          "ability": "Snow Warning",
+          "level": 42
+        },
+        {
+          "name": "Froslass",
+          "type": "Ice",
+          "moves": ["Blizzard", "Double Team", "Shadow Ball", "Psychic"],
+          "nature": "Lonely",
+          "ability": "Snow Cloak",
+          "level": 44
+        }
+      ]
+    },
+    {
+      "name": "Volkner",
+      "badge": "Beacon Badge",
+      "type": "Electric",
+      "location": "Sunyshore City",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "gymLocation": "oreburgh-gym",
+      "pokemon": [
+        {
+          "name": "Jolteon",
+          "type": "Electric",
+          "moves": ["Thunder Wave", "Charge Beam", "Iron Tail", "Quick Attack"],
+          "nature": "Relaxed",
+          "ability": "Volt Absorb",
+          "level": 46
+        },
+        {
+          "name": "Raichu",
+          "type": "Electric",
+          "moves": [
+            "Charge Beam",
+            "Focus Blast",
+            "Signal Beam",
+            "Quick Attack"
+          ],
+          "nature": "Gentle",
+          "ability": "Static",
+          "level": 46
+        },
+        {
+          "name": "Luxray",
+          "type": "Electric",
+          "moves": ["Ice Fang", "Thunder Fang", "Crunch", "Fire Fang"],
+          "nature": "Lax",
+          "ability": "Intimidate",
+          "level": 48
+        },
+        {
+          "name": "Electivire",
+          "type": "Electric",
+          "moves": [
+            "Thunder Punch",
+            "Fire Punch",
+            "Quick Attack",
+            "Giga Impact"
+          ],
+          "nature": "Impish",
+          "ability": "Motor Drive",
+          "level": 50
         }
       ]
     }
-  ]
+  ],
+  "eliteFour": [
+    {
+      "name": "Aaron",
+      "type": "Bug",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "pokemon": [
+        {
+          "name": "Yanmega",
+          "type": "Bug/Flying",
+          "moves": ["Air Slash", "Bug Buzz", "U-Turn", "Double Team"],
+          "nature": "Rash",
+          "ability": "Speed Boost",
+          "level": 49
+        },
+        {
+          "name": "Scizor",
+          "type": "Bug/Flying",
+          "moves": ["Iron Head", "X-Scissor", "Night Slash", "Quick Attack"],
+          "nature": "Gentle",
+          "ability": "Swarm",
+          "level": 49
+        },
+        {
+          "name": "Vespiquen",
+          "type": "Bug/Flying",
+          "moves": ["Attack Order", "Defend Order", "Heal Order", "Power Gem"],
+          "nature": "Careful",
+          "ability": "Pressure",
+          "level": 50
+        },
+        {
+          "name": "Heracross",
+          "type": "Bug/Fighting",
+          "moves": ["Megahorn", "Close Combat", "Night Slash", "Stone Edge"],
+          "nature": "Naughty",
+          "ability": "Swarm",
+          "level": 51
+        },
+        {
+          "name": "Drapion",
+          "type": "Poison/Dark",
+          "moves": ["X-Scissor", "Cross Poison", "Ice Fang", "Aerial Ace"],
+          "nature": "Jolly",
+          "ability": "Battle Armor",
+          "level": 53
+        }
+      ]
+    },
+    {
+      "name": "Bertha",
+      "type": "Ground",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "pokemon": [
+        {
+          "name": "Whiscash",
+          "type": "Water/Ground",
+          "moves": ["Earth Power", "Aqua Tail", "Zen Headbutt", "Sandstorm"],
+          "nature": "Mild",
+          "ability": "Oblivious",
+          "level": 50
+        },
+        {
+          "name": "Gliscor",
+          "type": "Ground/Flying",
+          "moves": ["Earthquake", "Ice Fang", "Fire Fang", "Thunder Fang"],
+          "nature": "Serious",
+          "ability": "Hyper Cutter",
+          "level": 53
+        },
+        {
+          "name": "Hippowdon",
+          "type": "Ground",
+          "moves": ["Earthquake", "Stone Edge", "Crunch", "Yawn"],
+          "nature": "Quirky",
+          "ability": "Sand Stream",
+          "level": 52
+        },
+        {
+          "name": "Golem",
+          "type": "Rock/Ground",
+          "moves": ["Earthquake", "Fire Punch", "Thunder Punch", "Sandstorm"],
+          "nature": "Docile",
+          "ability": "Rock Head",
+          "level": 52
+        },
+        {
+          "name": "Rhyperior",
+          "type": "Ground/Rock",
+          "moves": ["Earthquake", "Rock Wrecker", "Megahorn", "Avalanche"],
+          "nature": "Naughty",
+          "ability": "Lightning Rod",
+          "level": 55
+        }
+      ]
+    },
+    {
+      "name": "Flint",
+      "type": "Fire",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "pokemon": [
+        {
+          "name": "Houndoom",
+          "type": "Dark/Fire",
+          "moves": ["Flamethrower", "Sludge Bomb", "Dark Pulse", "Sunny Day"],
+          "nature": "Relaxed",
+          "ability": "Early Bird",
+          "level": 52
+        },
+        {
+          "name": "",
+          "type": "",
+          "moves": ["Overheat", "Giga Impact", "Quick Attack", "Will-O-Wisp"],
+          "nature": "Quirky",
+          "ability": "Flash Fire",
+          "level": 55
+        },
+        {
+          "name": "",
+          "type": "",
+          "moves": ["Flare Blitz", "Solar Beam", "Bounce", "Sunny Day"],
+          "nature": "Docile",
+          "ability": "Run Away",
+          "level": 53
+        },
+        {
+          "name": "",
+          "type": "",
+          "moves": ["Flare Blitz", "Thunder Punch", "Mach Punch", "Earthquake"],
+          "nature": "Bold",
+          "ability": "Blaze",
+          "level": 55
+        },
+        {
+          "name": "",
+          "type": "",
+          "moves": ["Flamethrower", "Thunderbolt", "Solar Beam", "Hyper Beam"],
+          "nature": "Gentle",
+          "ability": "Flame Body",
+          "level": 57
+        }
+      ]
+    },
+    {
+      "name": "Lucian",
+      "type": "Psychic",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "pokemon": [
+        {
+          "name": "Mr. Mime",
+          "type": "Psychic/Fairy",
+          "moves": ["Psychic", "Thunderbolt", "Reflect", "Light Screen"],
+          "nature": "Hasty",
+          "ability": "Soundproof",
+          "level": 53
+        },
+        {
+          "name": "Espeon",
+          "type": "Psychic",
+          "moves": ["Psychic", "Shadow Ball", "Quick Attack", "Signal Beam"],
+          "nature": "Hardy",
+          "ability": "Synchronize",
+          "level": 55
+        },
+        {
+          "name": "Bronzong",
+          "type": "Steel/Psychic",
+          "moves": ["Psychic", "Gyro Ball", "Earthquake", "Calm Mind"],
+          "nature": "Naive",
+          "ability": "Levitate",
+          "level": 54
+        },
+        {
+          "name": "Alakazam",
+          "type": "Psychic",
+          "moves": ["Psychic", "Energy Ball", "Focus Blast", "Recover"],
+          "nature": "Hardy",
+          "ability": "Synchronize",
+          "level": 56
+        },
+        {
+          "name": "Gallade",
+          "type": "Psychic/Fighting",
+          "moves": ["Drain Punch", "Psycho Cut", "Leaf Blade", "Stone Edge"],
+          "nature": "Careful",
+          "ability": "Steadfast",
+          "level": 59
+        }
+      ]
+    }
+  ],
+  "champion": {
+    "name": "Cynthia",
+    "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+    "pokemon": [
+      {
+        "name": "Spiritomb",
+        "type": "Ghost/Dark",
+        "moves": ["Dark Pulse", "Psychic", "Silver Wind", "Shadow Ball"],
+        "nature": "Timid",
+        "ability": "Pressure",
+        "level": 58
+      },
+      {
+        "name": "Roserade",
+        "type": "Grass/Poison",
+        "moves": ["Energy Ball", "Sludge Bomb", "Toxic", "Extrasensory"],
+        "nature": "Mild",
+        "ability": "Natural Cure",
+        "level": 58
+      },
+      {
+        "name": "Togekiss",
+        "type": "Fairy/Flying",
+        "moves": ["Air Slash", "Aura Sphere", "Water Pulse", "Shock Wave"],
+        "nature": "Hardy",
+        "ability": "Hustle",
+        "level": 60
+      },
+      {
+        "name": "Lucario",
+        "type": "Fighting/Steel",
+        "moves": ["Aura Sphere", "Extreme Speed", "Shadow Ball", "Stone Edge"],
+        "nature": "Careful",
+        "ability": "Steadfast",
+        "level": 60
+      },
+      {
+        "name": "Milotic",
+        "type": "Water",
+        "moves": ["Surf", "Ice Beam", "Mirror Coat", "Dragon Pulse"],
+        "nature": "Docile",
+        "ability": "Marvel Scale",
+        "level": 58
+      },
+      {
+        "name": "Garchomp",
+        "type": "Dragon/Ground",
+        "moves": ["Dragon Rush", "Earthquake", "Flamethrower", "Giga Impact"],
+        "nature": "Quirky",
+        "ability": "Sand Veil",
+        "level": 62
+      }
+    ]
+  }
 }
