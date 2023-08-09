@@ -1,23 +1,27 @@
-"use client";
-
 import Image from "next/image";
 import TallGrass from "@assets/tallgrass.png";
 import Potion from "@assets/potion.png";
 import Trainer from "@assets/trainer.png";
-import Cookies from "js-cookie";
+import Header from "@components/Header";
 import Timeline from "@components/Timeline";
+import { cookies } from "next/headers";
 
 const ICON_SIZE = 100;
 
-export default async function Home() {
-  const location = Cookies.get("pokehelper-location");
-  const lastGym = Cookies.get("pokehelper-lastGym");
+// The idea is for the location to always come from the cookie.
+// If we have a location search param, then we will set it into a cookie.
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: { [key: string]: string | string[] | undefined };
+}) {
+  const location = cookies().get("pokehelper-location")?.value;
+  const lastGym = cookies().get("pokehelper-lastGym")?.value;
 
   return (
     <main className="w-screen h-screen flex flex-col">
       <div className="outline outline-gray-700 w-full h-1/5 centered">
-        {/* This will serve as a title and navbar */}
-        {location}
+        <Header location={location} />
       </div>
       <div className="w-full h-full flex flex-col lg:flex-row-reverse">
         <div className="main flex flex-col w-full lg:w-2/3 h-full">
