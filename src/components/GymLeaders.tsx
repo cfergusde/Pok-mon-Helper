@@ -2,7 +2,7 @@
 
 import Image, { StaticImageData } from "next/image";
 import { ListBox } from "./ListBox";
-import gymLeaders from "@app/data/gymLeaders.json";
+import gymLeaders from "@app/(data)/gymLeaders.json";
 import Link from "next/link";
 import Cookies from "js-cookie";
 
