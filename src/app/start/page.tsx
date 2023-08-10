@@ -22,6 +22,7 @@ export default function Start() {
           src={crying_psyduck}
           alt="Crying Psyduck"
           gymLocation="twinleaf-town-area"
+          index={0}
         />
         {/* Start Existing Game */}
         <GymLeaders />

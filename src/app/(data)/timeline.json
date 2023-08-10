@@ -125,7 +125,8 @@
       "displayName": "Hearthome City"
     },
     {
-      "displayName": "Hearthome Gym"
+      "displayName": "Hearthome Gym",
+      "name": "hearthome-gym"
     },
     {
       "displayName": "Route 209"
@@ -149,7 +150,8 @@
       "displayName": "Veilstone City"
     },
     {
-      "displayName": "Veilstone Gym"
+      "displayName": "Veilstone Gym",
+      "name": "veilstone-gym"
     },
     {
       "displayName": "Route 214"
@@ -167,7 +169,8 @@
       "displayName": "Pastoria City"
     },
     {
-      "displayName": "Pastoria Gym"
+      "displayName": "Pastoria Gym",
+      "name": "pastoria-gym"
     },
     {
       "displayName": "Route 212"
@@ -203,7 +206,8 @@
       "displayName": "Canalave City"
     },
     {
-      "displayName": "Canalave Gym"
+      "displayName": "Canalave Gym",
+      "name": "canalave-gym"
     },
     {
       "displayName": "Iron Island"
@@ -233,7 +237,8 @@
       "displayName": "Snowpoint City"
     },
     {
-      "displayName": "Snowpoint Gym"
+      "displayName": "Snowpoint Gym",
+      "name": "snowpoint-gym"
     },
     {
       "displayName": "Lake Acuity"
@@ -270,7 +275,8 @@
       "displayName": "Sunyshore City"
     },
     {
-      "displayName": "Sunyshore Gym"
+      "displayName": "Sunyshore Gym",
+      "name": "sunyshore-gym"
     },
     {
       "displayName": "Route 223"

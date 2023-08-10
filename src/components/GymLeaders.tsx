@@ -7,6 +7,7 @@ export type GymLeaderProps = {
   src: StaticImageData | string
   alt: string
   gymLocation: string
+  index: number
 }
 
 export const GymLeaders = () => {
@@ -17,19 +18,19 @@ export const GymLeaders = () => {
   return (
     // container for gym leaders
     <div className="grid grid-cols-2 gap-10 mt-10">
-      {leaders.map((leader) => (
+      {leaders.map((leader,index) => (
         // Each individual leader
-        <GymLeader src={leader.imgUrl} alt={leader.name} gymLocation={leader.gymLocation} key={leader.name} />
+        <GymLeader src={leader.imgUrl} alt={leader.name} gymLocation={leader.gymLocation} index={index+1} key={leader.name} />
       ))}
     </div>
   );
 };
 
-export const GymLeader = ({ src, alt, gymLocation }: GymLeaderProps) => {
+export const GymLeader = ({ src, alt, gymLocation, index }: GymLeaderProps) => {
   return (
-    <Link href={`/home?location=${gymLocation}`} prefetch={false}>
+    <Link href={`/home?location=${gymLocation}&lastGym=${gymLocation}`} prefetch={false}>
       <ListBox
-        index={0}
+        index={index}
       >
         <Image
           src={src}

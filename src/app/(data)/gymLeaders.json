@@ -39,8 +39,8 @@
       "badge": "Forest Badge",
       "type": "Grass",
       "location": "Eterna City",
-      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
-      "gymLocation": "oreburgh-gym",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/gardenia.png",
+      "gymLocation": "eterna-gym",
       "pokemon": [
         {
           "name": "Turtwig",
@@ -73,8 +73,8 @@
       "badge": "Relic Badge",
       "type": "Ghost",
       "location": "Hearthome City",
-      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
-      "gymLocation": "oreburgh-gym",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/fantina.png",
+      "gymLocation": "hearthome-gym",
       "pokemon": [
         {
           "name": "Duskull",
@@ -107,8 +107,8 @@
       "badge": "Cobble Badge",
       "type": "Fighting",
       "location": "Veilstone City",
-      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
-      "gymLocation": "oreburgh-gym",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/maylene.png",
+      "gymLocation": "veilstone-gym",
       "pokemon": [
         {
           "name": "Meditite",
@@ -141,8 +141,8 @@
       "badge": "Fen Badge",
       "type": "Water",
       "location": "Pastoria City",
-      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
-      "gymLocation": "oreburgh-gym",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/crasher-wake.png",
+      "gymLocation": "pastoria-gym",
       "pokemon": [
         {
           "name": "Gyarados",
@@ -175,8 +175,8 @@
       "badge": "Mine Badge",
       "type": "Steel",
       "location": "Canalave City",
-      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
-      "gymLocation": "oreburgh-gym",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/byron.png",
+      "gymLocation": "canalave-gym",
       "pokemon": [
         {
           "name": "Magneton",
@@ -209,8 +209,8 @@
       "badge": "Icicle Badge",
       "type": "Ice",
       "location": "Snowpoint City",
-      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
-      "gymLocation": "oreburgh-gym",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/candice.png",
+      "gymLocation": "snowpoint-gym",
       "pokemon": [
         {
           "name": "Sneasel",
@@ -251,8 +251,8 @@
       "badge": "Beacon Badge",
       "type": "Electric",
       "location": "Sunyshore City",
-      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
-      "gymLocation": "oreburgh-gym",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/volkner.png",
+      "gymLocation": "sunyshore-gym",
       "pokemon": [
         {
           "name": "Jolteon",
@@ -303,7 +303,7 @@
     {
       "name": "Aaron",
       "type": "Bug",
-      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/aaron.png",
       "pokemon": [
         {
           "name": "Yanmega",
@@ -350,7 +350,7 @@
     {
       "name": "Bertha",
       "type": "Ground",
-      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/bertha.png",
       "pokemon": [
         {
           "name": "Whiscash",
@@ -397,7 +397,7 @@
     {
       "name": "Flint",
       "type": "Fire",
-      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/flint.png",
       "pokemon": [
         {
           "name": "Houndoom",
@@ -444,7 +444,7 @@
     {
       "name": "Lucian",
       "type": "Psychic",
-      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+      "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/lucian.png",
       "pokemon": [
         {
           "name": "Mr. Mime",
@@ -491,7 +491,7 @@
   ],
   "champion": {
     "name": "Cynthia",
-    "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/roark.png",
+    "imgUrl": "https://img.pokemondb.net/sprites/trainers/diamond-pearl/cynthia.png",
     "pokemon": [
       {
         "name": "Spiritomb",
