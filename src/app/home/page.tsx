@@ -4,6 +4,7 @@ import Potion from "@assets/potion.png";
 import Trainer from "@assets/trainer.png";
 import Header from "@components/Header";
 import { cookies } from "next/headers";
+import Map from "@components/Map";
 
 const ICON_SIZE = 100;
 
@@ -24,7 +25,7 @@ export default async function Home({
       <div className="w-full h-full flex flex-col lg:flex-row-reverse">
         <div className="main flex flex-col w-full lg:w-2/3 h-full">
           <div className="outline outline-gray-700 w-full h-4/5 centered">
-            Map Section
+            <Map location={location}/>
           </div>
           <div className="outline outline-gray-700 w-full h-1/5 centered">
             <div className="outline outline-gray-700 w-1/3 h-full centered">

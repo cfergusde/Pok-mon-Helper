@@ -44,7 +44,7 @@ export default function Admin() {
   return (
     <main className="centered w-screen h-screen flex-col text-black">
       <>
-        <h1 className="text-white">Enter the location name</h1>
+        <h1 className="text-white">Enter the location area name. Example: 'twinleaf-town-area'</h1>
         <form onSubmit={onSubmit}>
           <input />
         </form>
