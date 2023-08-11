@@ -1,3 +1,5 @@
+import { locationMaps } from "util/location";
+
 type MapProps = {
   location: string | undefined;
 };
@@ -14,21 +16,19 @@ type Coords = {
 };
 
 export default function Map({ location }: MapProps) {
-  const imgSrc = `/map/${location}/image.png`;
-  const points = require(`../../public/map/${location}/points.json`);
-  console.log(points);
-
   if (!location) {
     return <p>Could not find a map to this location</p>;
   }
 
+  const locationMap = locationMaps.get(location)
+
   return (
     <div className=" w-full h-full centered">
       <div className="relative">
-        {points?.map((point: DataPoint) => (
-          <Circle x={point?.coords.x} y={point?.coords.y} />
+        {locationMap?.points?.map((point: DataPoint) => (
+          <Circle x={point?.coords.x} y={point?.coords.y} key={point.name}/>
         ))}
-        <img src={imgSrc} alt="image" className="z-1 object-cover" />
+        <img src={locationMap?.imgSrc} alt="image" className="z-1 object-cover" />
       </div>
     </div>
   );
@@ -42,3 +42,4 @@ const Circle = ({ x, y }: { x?: number; y?: number }) => {
     />
   );
 };
+
