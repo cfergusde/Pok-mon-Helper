@@ -83,155 +83,402 @@
       "displayName": "Floaroma Meadow"
     },
     {
-      "displayName": "Valley Windworks"
+      "displayName": "Valley Windworks",
+      "name": "valley-windworks-area",
+      "url": "https://pokeapi.co/api/v2/location-area/8/"
     },
     {
-      "displayName": "Route 205 (south)"
+      "displayName": "Route 205 (south)",
+      "name": "sinnoh-route-205-south-towards-floaroma-town",
+      "url": "https://pokeapi.co/api/v2/location-area/146/"
     },
     {
-      "displayName": "Eterna Forest"
+      "displayName": "Eterna Forest",
+      "name": "eterna-forest-area",
+      "url": "https://pokeapi.co/api/v2/location-area/9/"
     },
     {
-      "displayName": "Route 205 (east)"
+      "displayName": "Route 205 (east)",
+      "name": "sinnoh-route-205-east-towards-eterna-city",
+      "url": "https://pokeapi.co/api/v2/location-area/147/"
     },
     {
-      "displayName": "Eterna City"
+      "displayName": "Eterna City",
+      "name": "eterna-city-area",
+      "url": "https://pokeapi.co/api/v2/location-area/2/"
     },
     {
       "displayName": "Eterna Gym"
     },
     {
-      "displayName": "Eterna City"
+      "displayName": "Eterna City",
+      "name": "eterna-city-area",
+      "url": "https://pokeapi.co/api/v2/location-area/2/"
     },
     {
-      "displayName": "Old Chateau"
+      "displayName": "Old Chateau",
+      "name": "old-chateau-entrance",
+      "url": "https://pokeapi.co/api/v2/location-area/126/",
+      "subLocations": [
+        {
+          "name": "old-chateau-dining-room",
+          "url": "https://pokeapi.co/api/v2/location-area/127/"
+        },
+        {
+          "name": "old-chateau-2f-private-room",
+          "url": "https://pokeapi.co/api/v2/location-area/128/"
+        },
+        {
+          "name": "old-chateau-2f",
+          "url": "https://pokeapi.co/api/v2/location-area/129/"
+        },
+        {
+          "name": "old-chateau-2f-leftmost-room",
+          "url": "https://pokeapi.co/api/v2/location-area/130/"
+        },
+        {
+          "name": "old-chateau-2f-left-room",
+          "url": "https://pokeapi.co/api/v2/location-area/131/"
+        },
+        {
+          "name": "old-chateau-2f-middle-room",
+          "url": "https://pokeapi.co/api/v2/location-area/132/"
+        },
+        {
+          "name": "old-chateau-2f-right-room",
+          "url": "https://pokeapi.co/api/v2/location-area/133/"
+        },
+        {
+          "name": "old-chateau-2f-rightmost-room",
+          "url": "https://pokeapi.co/api/v2/location-area/134/"
+        }
+      ]
     },
     {
-      "displayName": "Route 206"
+      "displayName": "Route 206",
+      "name": "sinnoh-route-206-area",
+      "url": "https://pokeapi.co/api/v2/location-area/148/"
     },
     {
-      "displayName": "Wayward Cave"
+      "displayName": "Wayward Cave",
+      "name": "wayward-cave-1f",
+      "url": "https://pokeapi.co/api/v2/location-area/113/"
     },
     {
-      "displayName": "Route 207"
+      "displayName": "Wayward Cave Basement",
+      "name": "wayward-cave-b1f",
+      "url": "https://pokeapi.co/api/v2/location-area/114/"
     },
     {
-      "displayName": "Mt. Coronet (south)"
+      "displayName": "Route 207",
+      "name": "sinnoh-route-207-area",
+      "url": "https://pokeapi.co/api/v2/location-area/149/"
     },
     {
-      "displayName": "Route 208"
+      "displayName": "Mt. Coronet (south)",
+      "name": "mt-coronet-1f-route-207",
+      "url": "https://pokeapi.co/api/v2/location-area/11/"
     },
     {
-      "displayName": "Hearthome City"
+      "displayName": "Route 208",
+      "name": "sinnoh-route-208-area",
+      "url": "https://pokeapi.co/api/v2/location-area/150/"
+    },
+    {
+      "displayName": "Hearthome City",
+      "name": "hearthome-city-area",
+      "url": "https://pokeapi.co/api/v2/location-area/771/"
     },
     {
       "displayName": "Hearthome Gym",
       "name": "hearthome-gym"
     },
     {
-      "displayName": "Route 209"
+      "displayName": "Route 209",
+      "name": "sinnoh-route-209-area",
+      "url": "https://pokeapi.co/api/v2/location-area/151/"
     },
     {
       "displayName": "Solaceon Town"
     },
     {
-      "displayName": "Solaceon Ruins"
+      "displayName": "Solaceon Ruins",
+      "name": "solaceon-ruins-1f",
+      "url": "https://pokeapi.co/api/v2/location-area/31/",
+      "subLocations": [
+        {
+          "name": "solaceon-ruins-2f",
+          "url": "https://pokeapi.co/api/v2/location-area/30/"
+        },
+        {
+          "name": "solaceon-ruins-1f",
+          "url": "https://pokeapi.co/api/v2/location-area/31/"
+        },
+        {
+          "name": "solaceon-ruins-b1f-a",
+          "url": "https://pokeapi.co/api/v2/location-area/32/"
+        },
+        {
+          "name": "solaceon-ruins-b1f-b",
+          "url": "https://pokeapi.co/api/v2/location-area/33/"
+        },
+        {
+          "name": "solaceon-ruins-b1f-c",
+          "url": "https://pokeapi.co/api/v2/location-area/34/"
+        },
+        {
+          "name": "solaceon-ruins-b2f-a",
+          "url": "https://pokeapi.co/api/v2/location-area/35/"
+        },
+        {
+          "name": "solaceon-ruins-b2f-b",
+          "url": "https://pokeapi.co/api/v2/location-area/36/"
+        },
+        {
+          "name": "solaceon-ruins-b2f-c",
+          "url": "https://pokeapi.co/api/v2/location-area/37/"
+        },
+        {
+          "name": "solaceon-ruins-b3f-a",
+          "url": "https://pokeapi.co/api/v2/location-area/38/"
+        },
+        {
+          "name": "solaceon-ruins-b3f-b",
+          "url": "https://pokeapi.co/api/v2/location-area/39/"
+        },
+        {
+          "name": "solaceon-ruins-b3f-c",
+          "url": "https://pokeapi.co/api/v2/location-area/40/"
+        },
+        {
+          "name": "solaceon-ruins-b3f-d",
+          "url": "https://pokeapi.co/api/v2/location-area/41/"
+        },
+        {
+          "name": "solaceon-ruins-b3f-e",
+          "url": "https://pokeapi.co/api/v2/location-area/42/"
+        },
+        {
+          "name": "solaceon-ruins-b4f-a",
+          "url": "https://pokeapi.co/api/v2/location-area/43/"
+        },
+        {
+          "name": "solaceon-ruins-b4f-b",
+          "url": "https://pokeapi.co/api/v2/location-area/44/"
+        },
+        {
+          "name": "solaceon-ruins-b4f-c",
+          "url": "https://pokeapi.co/api/v2/location-area/45/"
+        },
+        {
+          "name": "solaceon-ruins-b4f-d",
+          "url": "https://pokeapi.co/api/v2/location-area/46/"
+        },
+        {
+          "name": "solaceon-ruins-b5f",
+          "url": "https://pokeapi.co/api/v2/location-area/47/"
+        }
+      ]
     },
     {
-      "displayName": "Lost Tower"
+      "displayName": "Lost Tower",
+      "name": "lost-tower-1f",
+      "url": "https://pokeapi.co/api/v2/location-area/152/",
+      "subLocations": [
+        {
+          "name": "lost-tower-1f",
+          "url": "https://pokeapi.co/api/v2/location-area/152/"
+        },
+        {
+          "name": "lost-tower-2f",
+          "url": "https://pokeapi.co/api/v2/location-area/153/"
+        },
+        {
+          "name": "lost-tower-3f",
+          "url": "https://pokeapi.co/api/v2/location-area/154/"
+        },
+        {
+          "name": "lost-tower-4f",
+          "url": "https://pokeapi.co/api/v2/location-area/155/"
+        },
+        {
+          "name": "lost-tower-5f",
+          "url": "https://pokeapi.co/api/v2/location-area/156/"
+        }
+      ]
     },
     {
-      "displayName": "Route 210 (south)"
+      "displayName": "Route 210 (south)",
+      "name": "sinnoh-route-210-south-towards-solaceon-town",
+      "url": "https://pokeapi.co/api/v2/location-area/157/"
     },
     {
-      "displayName": "Route 215"
+      "displayName": "Route 215",
+      "name": "sinnoh-route-215-area",
+      "url": "https://pokeapi.co/api/v2/location-area/165/"
     },
     {
-      "displayName": "Veilstone City"
+      "displayName": "Veilstone City",
+      "name": "veilstone-city-area",
+      "url": "https://pokeapi.co/api/v2/location-area/772/"
     },
     {
       "displayName": "Veilstone Gym",
       "name": "veilstone-gym"
     },
     {
-      "displayName": "Route 214"
+      "displayName": "Route 214",
+      "name": "sinnoh-route-214-area",
+      "url": "https://pokeapi.co/api/v2/location-area/164/"
     },
     {
-      "displayName": "Maniac Tunnel"
+      "displayName": "Maniac Tunnel",
+      "name": "maniac-tunnel-26-plus-different-unown-caught",
+      "url": "https://pokeapi.co/api/v2/location-area/117/"
     },
     {
-      "displayName": "Valor Lakefront"
+      "displayName": "Valor Lakefront",
+      "name": "valor-lakefront-area",
+      "url": "https://pokeapi.co/api/v2/location-area/139/"
     },
     {
-      "displayName": "Route 213"
+      "displayName": "Route 213",
+      "name": "sinnoh-route-213-area",
+      "url": "https://pokeapi.co/api/v2/location-area/163/"
     },
     {
-      "displayName": "Pastoria City"
+      "displayName": "Pastoria City",
+      "name": "pastoria-city-area",
+      "url": "https://pokeapi.co/api/v2/location-area/3/"
     },
     {
       "displayName": "Pastoria Gym",
       "name": "pastoria-gym"
     },
     {
-      "displayName": "Route 212"
+      "displayName": "Route 212",
+      "name": "sinnoh-route-212-north-towards-hearthome-city",
+      "url": "https://pokeapi.co/api/v2/location-area/161/"
     },
     {
-      "displayName": "Valor Lakefront"
+      "displayName": "Valor Lakefront",
+      "name": "valor-lakefront-area",
+      "url": "https://pokeapi.co/api/v2/location-area/139/"
     },
     {
-      "displayName": "Route 210"
+      "displayName": "Route 210",
+      "name": "sinnoh-route-210-west-towards-celestic-town",
+      "url": "https://pokeapi.co/api/v2/location-area/158/"
     },
     {
-      "displayName": "Celestic Town"
+      "displayName": "Celestic Town",
+      "name": "celestic-town-area",
+      "url": "https://pokeapi.co/api/v2/location-area/178/"
     },
     {
-      "displayName": "Fuego Ironworks"
+      "displayName": "Fuego Ironworks",
+      "name": "fuego-ironworks-area",
+      "url": "https://pokeapi.co/api/v2/location-area/10/"
     },
     {
-      "displayName": "Route 213"
+      "displayName": "Route 213",
+      "name": "sinnoh-route-213-area",
+      "url": "https://pokeapi.co/api/v2/location-area/163/"
     },
     {
-      "displayName": "Route 219"
+      "displayName": "Route 219",
+      "name": "sinnoh-route-219-area",
+      "url": "https://pokeapi.co/api/v2/location-area/169/"
     },
     {
-      "displayName": "Route 220"
+      "displayName": "Route 220",
+      "name": "sinnoh-sea-route-220-area",
+      "url": "https://pokeapi.co/api/v2/location-area/180/"
     },
     {
-      "displayName": "Route 221"
+      "displayName": "Route 221",
+      "name": "sinnoh-route-221-area",
+      "url": "https://pokeapi.co/api/v2/location-area/170/"
     },
     {
-      "displayName": "Route 218"
+      "displayName": "Route 218",
+      "name": "sinnoh-route-218-area",
+      "url": "https://pokeapi.co/api/v2/location-area/168/"
     },
     {
-      "displayName": "Canalave City"
+      "displayName": "Canalave City",
+      "name": "canalave-city-area",
+      "url": "https://pokeapi.co/api/v2/location-area/1/"
     },
     {
       "displayName": "Canalave Gym",
       "name": "canalave-gym"
     },
     {
-      "displayName": "Iron Island"
+      "displayName": "Iron Island",
+      "name": "iron-island-area",
+      "url": "https://pokeapi.co/api/v2/location-area/119/",
+      "subLocations": [
+        {
+          "name": "iron-island-1f",
+          "url": "https://pokeapi.co/api/v2/location-area/120/"
+        },
+        {
+          "name": "iron-island-b1f-left",
+          "url": "https://pokeapi.co/api/v2/location-area/121/"
+        },
+        {
+          "name": "iron-island-b1f-right",
+          "url": "https://pokeapi.co/api/v2/location-area/122/"
+        },
+        {
+          "name": "iron-island-b2f-right",
+          "url": "https://pokeapi.co/api/v2/location-area/123/"
+        },
+        {
+          "name": "iron-island-b2f-left",
+          "url": "https://pokeapi.co/api/v2/location-area/124/"
+        },
+        {
+          "name": "iron-island-b3f",
+          "url": "https://pokeapi.co/api/v2/location-area/125/"
+        }
+      ]
     },
     {
-      "displayName": "Lake Valor"
+      "displayName": "Lake Valor",
+      "name": "lake-valor-area",
+      "url": "https://pokeapi.co/api/v2/location-area/137/"
     },
     {
-      "displayName": "Lake Verity"
+      "displayName": "Lake Verity",
+      "name": "lake-verity-before-galactic-intervention",
+      "url": "https://pokeapi.co/api/v2/location-area/135/"
     },
     {
-      "displayName": "Route 211"
+      "displayName": "Route 211",
+      "name": "sinnoh-route-211-west-towards-eterna-city",
+      "url": "https://pokeapi.co/api/v2/location-area/159/"
     },
     {
-      "displayName": "Mt. Coronet (north)"
+      "displayName": "Mt. Coronet (north)",
+      "name": "mt-coronet-2f",
+      "url": "https://pokeapi.co/api/v2/location-area/12/"
     },
     {
-      "displayName": "Route 216"
+      "displayName": "Route 216",
+      "name": "sinnoh-route-216-area",
+      "url": "https://pokeapi.co/api/v2/location-area/166/"
     },
     {
-      "displayName": "Route 217"
+      "displayName": "Route 217",
+      "name": "sinnoh-route-217-area",
+      "url": "https://pokeapi.co/api/v2/location-area/167/"
     },
     {
-      "displayName": "Acuity Lakefront"
+      "displayName": "Acuity Lakefront",
+      "name": "acuity-lakefront-area",
+      "url": "https://pokeapi.co/api/v2/location-area/140/"
     },
     {
       "displayName": "Snowpoint City"
@@ -241,54 +488,156 @@
       "name": "snowpoint-gym"
     },
     {
-      "displayName": "Lake Acuity"
+      "displayName": "Lake Acuity",
+      "name": "lake-acuity-area",
+      "url": "https://pokeapi.co/api/v2/location-area/138/"
     },
     {
-      "displayName": "Veilstone City"
+      "displayName": "Veilstone City",
+      "name": "veilstone-city-area",
+      "url": "https://pokeapi.co/api/v2/location-area/772/"
     },
     {
-      "displayName": "Mt. Coronet (south)*",
-      "comment": "This line should be removed; but I'm not sure this location is the same as the last Mt. Coronet (south)"
+      "displayName": "Mt. Coronet (south)",
+      "name": "mt-coronet-1f-route-207",
+      "url": "https://pokeapi.co/api/v2/location-area/11/",
+      "subLocations": [
+        {
+          "name": "mt-coronet-1f-route-207",
+          "url": "https://pokeapi.co/api/v2/location-area/11/"
+        },
+        {
+          "name": "mt-coronet-2f",
+          "url": "https://pokeapi.co/api/v2/location-area/12/"
+        },
+        {
+          "name": "mt-coronet-3f",
+          "url": "https://pokeapi.co/api/v2/location-area/13/"
+        },
+        {
+          "name": "mt-coronet-exterior-snowfall",
+          "url": "https://pokeapi.co/api/v2/location-area/14/"
+        },
+        {
+          "name": "mt-coronet-exterior-blizzard",
+          "url": "https://pokeapi.co/api/v2/location-area/15/"
+        },
+        {
+          "name": "mt-coronet-4f",
+          "url": "https://pokeapi.co/api/v2/location-area/16/"
+        },
+        {
+          "name": "mt-coronet-4f-small-room",
+          "url": "https://pokeapi.co/api/v2/location-area/17/"
+        },
+        {
+          "name": "mt-coronet-5f",
+          "url": "https://pokeapi.co/api/v2/location-area/18/"
+        },
+        {
+          "name": "mt-coronet-6f",
+          "url": "https://pokeapi.co/api/v2/location-area/19/"
+        },
+        {
+          "name": "mt-coronet-1f-from-exterior",
+          "url": "https://pokeapi.co/api/v2/location-area/20/"
+        },
+        {
+          "name": "mt-coronet-1f-route-216",
+          "url": "https://pokeapi.co/api/v2/location-area/21/"
+        },
+        {
+          "name": "mt-coronet-1f-route-211",
+          "url": "https://pokeapi.co/api/v2/location-area/22/"
+        },
+        {
+          "name": "mt-coronet-b1f",
+          "url": "https://pokeapi.co/api/v2/location-area/23/"
+        }
+      ]
     },
     {
-      "displayName": "Spear Pillar"
+      "displayName": "Spear Pillar",
+      "name": "spear-pillar-area",
+      "url": "https://pokeapi.co/api/v2/location-area/831/"
     },
     {
       "displayName": "Distortion World"
     },
     {
-      "displayName": "Sendoff Spring"
+      "displayName": "Sendoff Spring",
+      "name": "sendoff-spring-area",
+      "url": "https://pokeapi.co/api/v2/location-area/60/"
     },
     {
-      "displayName": "Lake Verity"
+      "displayName": "Lake Verity",
+      "name": "lake-verity-after-galactic-intervention",
+      "url": "https://pokeapi.co/api/v2/location-area/136/"
     },
     {
-      "displayName": "Lake Valor"
+      "displayName": "Lake Valor",
+      "name": "lake-valor-area",
+      "url": "https://pokeapi.co/api/v2/location-area/137/"
     },
     {
-      "displayName": "Lake Acuity"
+      "displayName": "Lake Acuity",
+      "name": "lake-acuity-area",
+      "url": "https://pokeapi.co/api/v2/location-area/138/"
     },
     {
-      "displayName": "Route 222"
+      "displayName": "Route 222",
+      "name": "sinnoh-route-222-area",
+      "url": "https://pokeapi.co/api/v2/location-area/171/"
     },
     {
-      "displayName": "Sunyshore City"
+      "displayName": "Sunyshore City",
+      "name": "sunyshore-city-area",
+      "url": "https://pokeapi.co/api/v2/location-area/4/"
     },
     {
       "displayName": "Sunyshore Gym",
       "name": "sunyshore-gym"
     },
     {
-      "displayName": "Route 223"
+      "displayName": "Route 223",
+      "name": "sinnoh-sea-route-223-area",
+      "url": "https://pokeapi.co/api/v2/location-area/181/"
     },
     {
-      "displayName": "Pokemon League (south)"
+      "displayName": "Victory Road",
+      "name": "sinnoh-victory-road-1f",
+      "url": "https://pokeapi.co/api/v2/location-area/48/",
+      "subLocations": [
+        {
+          "name": "sinnoh-victory-road-1f",
+          "url": "https://pokeapi.co/api/v2/location-area/48/"
+        },
+        {
+          "name": "sinnoh-victory-road-2f",
+          "url": "https://pokeapi.co/api/v2/location-area/49/"
+        },
+        {
+          "name": "sinnoh-victory-road-b1f",
+          "url": "https://pokeapi.co/api/v2/location-area/50/"
+        },
+        {
+          "name": "sinnoh-victory-road-inside-b1f",
+          "url": "https://pokeapi.co/api/v2/location-area/51/"
+        },
+        {
+          "name": "sinnoh-victory-road-inside",
+          "url": "https://pokeapi.co/api/v2/location-area/52/"
+        },
+        {
+          "name": "sinnoh-victory-road-inside-exit",
+          "url": "https://pokeapi.co/api/v2/location-area/53/"
+        }
+      ]
     },
     {
-      "displayName": "Victory Road"
-    },
-    {
-      "displayName": "Pokemon League (north)"
+      "displayName": "Pokemon League (north)",
+      "name": "sinnoh-pokemon-league-area",
+      "url": "https://pokeapi.co/api/v2/location-area/5/"
     }
   ]
 }
