@@ -28,28 +28,37 @@ export default async function Home({
           </div>
           <div className="outline outline-gray-700 w-full h-1/5 centered">
             <div className="outline outline-gray-700 w-1/3 h-full centered">
-              <Image
-                src={TallGrass}
-                alt="Encounters"
-                width={ICON_SIZE}
-                height={ICON_SIZE}
-              />
+              <figure>
+                <Image
+                  src={TallGrass}
+                  alt="Encounters"
+                  width={ICON_SIZE}
+                  height={ICON_SIZE}
+                />
+                <figcaption className="figure-caption text-center">Encounters</figcaption>
+              </figure>
             </div>
             <div className="outline outline-gray-700 w-1/3 h-full centered">
-              <Image
-                src={Potion}
-                alt="Items"
-                width={ICON_SIZE}
-                height={ICON_SIZE}
-              />
+              <figure>
+                <Image
+                  src={Potion}
+                  alt="Items"
+                  width={ICON_SIZE}
+                  height={ICON_SIZE}
+                />
+                <figcaption className="figure-caption text-center">Items</figcaption>
+              </figure>
             </div>
             <div className="outline outline-gray-700 w-1/3 h-full centered">
-              <Image
-                src={Trainer}
-                alt="Trainers"
-                width={ICON_SIZE}
-                height={ICON_SIZE}
-              />
+              <figure>
+                <Image
+                  src={Trainer}
+                  alt="Trainers"
+                  width={ICON_SIZE}
+                  height={ICON_SIZE}
+                />
+                <figcaption className="figure-caption text-center">Trainers</figcaption>
+              </figure>
             </div>
           </div>
         </div>
