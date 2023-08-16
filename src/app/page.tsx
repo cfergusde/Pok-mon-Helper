@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import PlatinumImg from "../assets/platinum-logo-large.jpg";
+import GitHubLogo from "../assets/githubLogo.png";
 import Cookies from "js-cookie";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
@@ -21,11 +22,15 @@ export default async function Home() {
   }, [router, Cookies]);
 
   return (
-    <main className="flex flex-col justify-between items-center p-24 min-h-screen">
-      <p className="bg-amber-300 text-sky-700 font-mono font-bold text-4xl p-2 border-x-4 border-sky-700">
-        Welcome to Pokéhelper!
+    <main className="flex flex-col justify-center items-center p-24 min-h-screen">
+      <center>
+      <p className="text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-yellow-300 to-blue-500">
+        Pokéhelper
+        <br></br>
+        Walkthrough
       </p>
-      <div className="border-solid border-black border-2 hover:border-dotted">
+      </center>
+      <div className="mt-8 bg-neutral-900 -200 p-3 border-double border-black border-8 border-gray-300">
         <Link href={"/start"}>
           <Image
             src={PlatinumImg}
@@ -35,6 +40,17 @@ export default async function Home() {
           />
         </Link>
       </div>
+      <p className="text-1xl mt-40">
+        A dynamic walkthrough of Pokemon Platinum to help you relive your glory days
+      </p>
+      <Link href={"https://github.com/cfergusde/Pok-mon-Helper"}>
+          <Image
+            src={GitHubLogo}
+            alt="GitHub Logo"
+            width={100}
+            height={50}
+          />
+      </Link>
     </main>
   );
 }
