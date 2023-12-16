@@ -3,16 +3,19 @@
     {
       "name": "twinleaf-town-area",
       "displayName": "Twinleaf Town",
+      "extension": "png",
       "url": "https://pokeapi.co/api/v2/location-area/177/"
     },
     {
       "name": "sinnoh-route-201-area",
       "url": "https://pokeapi.co/api/v2/location-area/141/",
+      "extension": "jpeg",
       "displayName": "Route 201"
     },
     {
       "displayName": "Lake Verity",
       "name": "lake-verity-before-galactic-intervention",
+      "extension": "webp",
       "url": "https://pokeapi.co/api/v2/location-area/135/"
     },
     {

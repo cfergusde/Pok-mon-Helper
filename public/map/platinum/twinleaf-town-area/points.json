@@ -1,0 +1,4 @@
+[
+  { "name": "first dot", "type": "path", "description": "The best dot", "coords": { "x": 49, "y": 29 } },
+  { "name": "Trainer house", "type": "House", "description": "Where we start", "coords": { "x": 31, "y": 69 } }
+]
